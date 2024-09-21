@@ -19,7 +19,7 @@ window.onload = function() {
             ret = value2;
         }
         document.getElementById('result-heading').innerText = `Your Random result was:`;
-        document.getElementById('result').innerText = `Random Value: ${ret}`;
+        document.getElementById('result').innerText = `${ret}`;
         document.getElementById('result-chance-heading').innerText = `Based on the following random number of:`;
         document.getElementById('result-chance').innerText = `Random number: ${randomValue}`;
 
