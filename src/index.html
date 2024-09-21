@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Randomiser</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<form id="form">
+    <label for="value1">Value 1:</label>
+    <input type="text" id="value1" placeholder="value1" value="true" required>
+    <label for="chance1">Chance 1:</label>
+    <input type="number" min="0" max="100" step="0.01" id="chance1" placeholder="50" value="50" required>%
+    <br>
+    <label for="value2">Value 2:</label>
+    <input type="text" id="value2" placeholder="value2" value="false" required>
+    <label for="chance1">Chance 2:</label>
+    <input type="number" min="0" max="100" step="0.01" id="chance2" placeholder="50" value="50" disabled required>%
+    <br>
+    <button type="submit">Randomise</button>
+</form>
+<h1 id="result"></h1>
+
+</body>
+</html>
